@@ -17,10 +17,10 @@ if __name__ == "__main__":
         [START, EMPTY,  WALL,  WALL, EMPTY, EMPTY, EMPTY, EMPTY,  WALL, WALL],
         [ WALL, EMPTY, EMPTY, WALL, EMPTY, EMPTY,  WALL, EMPTY,  WALL, WALL],
         [ WALL,  WALL,  WALL,  EMPTY, EMPTY,  WALL, EMPTY,  WALL, EMPTY, WALL],
-        [ WALL, EMPTY, EMPTY, EMPTY, EMPTY,  WALL, EMPTY, WALL, EMPTY, WALL],
-        [ WALL,  WALL, EMPTY,  WALL,  WALL, EMPTY, EMPTY,  WALL, EMPTY, WALL],
+        [ WALL, WALL, EMPTY, EMPTY, EMPTY,  WALL, EMPTY, WALL, EMPTY, WALL],
+        [ WALL,  WALL, EMPTY,  WALL,  WALL, WALL, EMPTY,  WALL, EMPTY, WALL],
         [ WALL,  WALL, EMPTY, EMPTY, EMPTY, EMPTY,  WALL,  WALL, EMPTY,  END],
-        [ WALL,  WALL,  WALL,  WALL,  WALL,  WALL,  WALL,  WALL,  WALL, WALL],
+        [ WALL,  WALL,  WALL,  EMPTY,  WALL,  WALL,  EMPTY,  WALL,  WALL, EMPTY],
     ]
                     
     Viewer.view(grid)
